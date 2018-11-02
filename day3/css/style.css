@@ -1,0 +1,86 @@
+html {
+  font-size: calc(380/100*10vw);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: .14rem;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #fcfcfc;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap .top {
+  width: 100%;
+  height: .4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .1rem .2rem;
+}
+
+.wrap .top .t-left img, .wrap .top .t-righter img {
+  align-items: center;
+  width: .3rem;
+}
+
+.wrap .top .t-center {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner {
+  width: 100%;
+  height: 1rem;
+  background: #fff;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  width: 100%;
+}
+
+.cont {
+  display: flex;
+  padding: .1rem;
+}
+
+.cont img {
+  padding-left: .2rem;
+  width: .8rem;
+  height: .6rem;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  padding: 0 .1rem;
+  background: #fff;
+}
+
+.footer img {
+  display: inline-block;
+  width: .3rem;
+}
